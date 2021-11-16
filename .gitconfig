@@ -1,0 +1,13 @@
+[user]
+    name = <ユーザー名>
+    email = <email>
+[alias]
+    co = checkout
+    st = status
+    cp = cherry-pick
+    cancel = reset --soft HEAD^ && git reset HEAD
+    tree = log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset% x09by"%C(cyan ul)%an%Creset" %x09%C(auto)%s %d'
+[push]
+    default = current
+[core]
+    excludesfile = /Users/makotokatayori/.gitignore_global
