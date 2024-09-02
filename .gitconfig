@@ -1,6 +1,6 @@
 [user]
-    name = <ユーザー名>
-    email = <email>
+    name = ${GIT_USER_NAME}
+    email = ${GIT_USER_EMAIL}
 [alias]
     co = checkout
     st = status
@@ -12,3 +12,7 @@
     default = current
 [core]
     excludesfile = /Users/makotokatayori/.gitignore_global
+
+# 以下は必要に応じてカスタマイズしてください
+[github]
+    user = ${GITHUB_USER}
