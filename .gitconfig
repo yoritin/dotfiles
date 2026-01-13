@@ -1,6 +1,3 @@
-[user]
-    name = ${GIT_USER_NAME}
-    email = ${GIT_USER_EMAIL}
 [alias]
     co = checkout
     st = status
@@ -10,9 +7,3 @@
     tree = log --graph --pretty=format:'%x09%C(auto) %h %Cgreen %ar %Creset% x09by"%C(cyan ul)%an%Creset" %x09%C(auto)%s %d'
 [push]
     default = current
-[core]
-    excludesfile = /Users/makotokatayori/.gitignore_global
-
-# 以下は必要に応じてカスタマイズしてください
-[github]
-    user = ${GITHUB_USER}
